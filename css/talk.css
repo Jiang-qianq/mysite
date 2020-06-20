@@ -1,0 +1,105 @@
+*{
+	margin:0;
+	padding:0;
+}
+ul{
+	list-style-type:none;
+}
+a{
+	text-decoration: none;
+}
+.left{
+	float: left;
+}
+.right{
+	float: right;
+}
+.container{
+	width:900px;
+	margin:0px auto;
+}
+/* 导航栏 */
+#nav{
+	height:100px;
+	background-color: black;
+}
+#nav li {
+	float:left;
+	margin:0px 17px;
+	line-height:100px;
+}
+#nav li a{
+	color:white;
+	font-size:20px;
+	font-weight: bold;
+	padding-left:20px;
+}
+#nav li a:hover{
+	text-decoration:underline;
+	color: #ccc;
+}
+/* 页面的主要内容 */
+#talk .wrapper{
+	margin-top:10px;
+}
+#talk p{
+	font-size:25px;
+	text-align:center;
+	margin-bottom:20px;
+}
+#talk .question{
+	width:100%;
+	margin-left:30px;
+	margin-bottom:20px;
+	background-color:#FFFFFF;
+	border:1px solid #ccccff;
+}
+td.questiontext{
+	font-size:15px;
+	font-weight:bold;
+	background-color:#cccfff;
+	padding:10px 12px;
+}
+td.answer{
+	padding:10px 20px 15px 35px;
+}
+.answer li{
+	list-style-type: none;
+	text-align:left;
+	
+	display:table-row;
+} 
+.answer li label{
+	padding: 0.3em 1em 0% 0%;
+    display: table-cell;
+    vertical-align: baseline;
+}
+
+#talk .part-4{
+	margin-left:450px;
+	border:1px solid #ccccff;
+	
+}
+.survey-bottom{
+	text-align:center;
+	width:100%;
+	background-color:#cccfff;
+} 
+/* 页脚部分 */
+#footer{
+	height:50px;
+	background-color:black;
+	margin-top:50px;
+	
+}
+#footer p{
+	line-height:50px;
+}
+
+#footer p a{
+	color:white;
+	font-size:15px;
+	float:left;
+	padding-right:50px;
+	
+}	

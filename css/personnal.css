@@ -1,0 +1,85 @@
+*{
+	margin:0;
+	padding:0;
+}
+ul{
+	list-style-type:none;
+}
+a{
+	text-decoration: none;
+}
+.left{
+	float: left;
+}
+.right{
+	float: right;
+}
+.container{
+	width:900px;
+	margin:0px auto;
+}
+/* 导航栏部分 */
+#nav{
+	height:100px;
+	background-color: black;
+}
+#nav li {
+	float:left;
+	margin:0px 17px;
+	line-height:100px;
+}
+#nav li a{
+	color:white;
+	font-size:20px;
+	font-weight: bold;
+	padding-left:20px;
+}
+#nav li a:hover{
+	text-decoration:underline;
+	color: #ccc;
+}
+/* 图片部分 */
+#banner .wrapper{
+	height:900px;
+	background:url("../images/production.jpg") no-repeat center top;
+	font-size:50px;
+	color:white;
+	text-align:center;
+	margin-top:10px;
+	margin-bottom:70px;
+}
+/* 个人简介的内容部分 */
+#inner .container-1{
+	height:100px;
+	margin-left:200px;
+	margin-top:-500px;
+}
+#inner li a{
+	font-size:20px;
+	color:black;
+	
+}
+#inner img{
+	margin-left:520px;
+	margin-top:-130px;
+}
+/* 页脚部分 */	
+#footer{
+	height:50px;
+	background-color:black;
+	margin-top:80px
+	
+}
+#footer p{
+	line-height:50px;
+}
+
+#footer p a{
+	
+	color:white;
+	font-size:15px;
+	float:left;
+	padding-right:50px;
+	
+	
+}	
